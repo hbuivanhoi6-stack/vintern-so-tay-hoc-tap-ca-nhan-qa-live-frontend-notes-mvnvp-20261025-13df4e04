@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 
-const STAGE = 3;
+const STAGE = 4;
 const KEY = 'vintern.qa.notes.v1';
 type Note = { id: string; title: string; content: string; tags: string[]; createdAt: string; updatedAt: string };
 function validNote(value: unknown): value is Note {
